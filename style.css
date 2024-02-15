@@ -1,0 +1,80 @@
+header{
+    background-color: rgb(2, 255, 90);
+    
+}
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.btn1{
+    position: relative;
+    left: 700px;
+    top: 50px;
+
+}
+.btn{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+i{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    
+    
+}
+.hero{
+  background-image: url(https://www.lmfj.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Flmfjcom%2Fc1f52c70-672d-4faa-8fb1-1f9e5a5202fb_family-day-date_portrait.jpg%3Fauto%3Dcompress%2Cformat&w=3840&q=75);
+  background-size: cover;
+  height: 400px;
+}
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 20px;
+}
+
+.watch {
+margin: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+text-align: center;
+}
+
+.watch img {
+width: 200px;
+height: auto;
+margin-bottom: 10px;
+}
+
+.watch h2 {
+font-size: 1.5em;
+}
+
+.watch p {
+font-size: 1.2em;
+}
+.img1 {position: relative;
+    left: 100px;
+    height: 200px;
+}
+
+footer {
+    background-color: #08fb38;
+    color: #070606;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
